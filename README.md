@@ -103,18 +103,16 @@ sudo ./target/release/photobooth-bridge start
 ./target/release/photobooth-bridge uninstall
 ```
 
-While the bridge is running, use
-[naraka.wiki/photo-booth](https://naraka.wiki/photo-booth) to convert a
-foreign-region QR image, then scan the resulting QR in-game.
-
-The in-app converter panel (see
+Convert the QR you want to import next. The in-app converter panel (see
 [Converting a QR in the app](#converting-a-qr-in-the-app)) works on Linux
-too, but it's part of the GUI, so it inherits the same `sudo`-and-a-GUI-app
-friction that makes the CLI the recommended path here in the first place
-(root-owned GUI processes can hit display-permission/library issues
-depending on your desktop setup). If that's not a problem on your system,
-`sudo ./target/release/photobooth-bridge gui` gets you the converter panel
-without the website.
+too — `sudo ./target/release/photobooth-bridge gui` opens it — but it's
+part of the GUI, so it inherits the same `sudo`-and-a-GUI-app friction that
+makes the CLI the recommended path here in the first place (root-owned GUI
+processes can hit display-permission/library issues depending on your
+desktop setup). If that's not worth it,
+[naraka.wiki/photo-booth](https://naraka.wiki/photo-booth) still works
+exactly as before. Either way, scan the converted QR in-game while `start`
+(above) is running.
 
 ---
 
